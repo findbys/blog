@@ -1,0 +1,105 @@
+---
+title: 技术博客 | findbys
+description: 分享前端、Flutter、工程化等技术文章，记录学习与实践
+---
+
+<script setup>
+const posts = [
+  {
+    title: 'Vue3 Composition API 深度实践指南',
+    excerpt: '从原理到实战，全面掌握 Vue3 组合式 API，包含自定义 Hooks 封装、响应式原理解析等核心内容。',
+    link: '/blog/vue3/composition-api',
+    category: 'Vue3',
+    color: '#42b883',
+    tags: ['Vue3', 'Composition API', 'Hooks'],
+    date: '2024-12-15',
+    readTime: '12 min',
+  },
+  {
+    title: 'Flutter BLoC 状态管理最佳实践',
+    excerpt: '深入讲解 BLoC 模式在 Flutter 项目中的应用，含架构设计、事件处理和测试策略。',
+    link: '/blog/flutter/bloc-pattern',
+    category: 'Flutter',
+    color: '#54c5f8',
+    tags: ['Flutter', 'BLoC', 'Dart'],
+    date: '2024-12-01',
+    readTime: '15 min',
+  },
+  {
+    title: 'Vite 构建优化全攻略',
+    excerpt: '系统梳理 Vite 5 构建优化方案，从代码分割、懒加载到 CDN 引入和 Gzip 压缩。',
+    link: '/blog/engineering/vite-optimize',
+    category: '工程化',
+    color: '#bd34fe',
+    tags: ['Vite', '性能优化', '构建'],
+    date: '2024-11-20',
+    readTime: '10 min',
+  },
+  {
+    title: 'TypeScript 高级类型系统完全指南',
+    excerpt: '从泛型到条件类型、映射类型、模板字面量类型，全面掌握 TS 高级特性。',
+    link: '/blog/typescript-advanced',
+    category: 'TypeScript',
+    color: '#3178c6',
+    tags: ['TypeScript', '类型系统', '泛型'],
+    date: '2024-11-10',
+    readTime: '18 min',
+  },
+  {
+    title: 'uni-app 多端开发避坑指南',
+    excerpt: '总结 uni-app 在 H5、App、小程序三端开发中的常见问题与解决方案。',
+    link: '/blog/uniapp-guide',
+    category: '跨端开发',
+    color: '#00bcd4',
+    tags: ['uni-app', '小程序', 'H5'],
+    date: '2024-10-28',
+    readTime: '14 min',
+  },
+  {
+    title: 'Node.js 构建高性能 RESTful API',
+    excerpt: '使用 Express + TypeScript + Prisma 构建企业级 RESTful API，含鉴权、限流和日志。',
+    link: '/blog/nodejs-restful-api',
+    category: 'Node.js',
+    color: '#68a063',
+    tags: ['Node.js', 'Express', 'API'],
+    date: '2024-10-15',
+    readTime: '16 min',
+  },
+  {
+    title: 'Pinia 完全指南：Vue3 状态管理新标准',
+    excerpt: '深入解析 Pinia 设计理念，与 Vuex 对比，以及复杂业务场景下的最佳实践。',
+    link: '/blog/pinia-guide',
+    category: 'Vue3',
+    color: '#42b883',
+    tags: ['Pinia', 'Vue3', '状态管理'],
+    date: '2024-10-05',
+    readTime: '11 min',
+  },
+  {
+    title: 'Flutter 渲染原理深度解析',
+    excerpt: '从 Widget → Element → RenderObject 三棵树，到 Skia 绘制流程，彻底理解 Flutter 渲染机制。',
+    link: '/blog/flutter/render-principle',
+    category: 'Flutter',
+    color: '#54c5f8',
+    tags: ['Flutter', '渲染原理', 'Dart'],
+    date: '2024-09-20',
+    readTime: '20 min',
+  },
+  {
+    title: 'CSS Grid 布局完全指南',
+    excerpt: '从基础到进阶，全面掌握 CSS Grid 二维布局，含响应式实战案例和常见布局解决方案。',
+    link: '/blog/css-grid',
+    category: 'CSS',
+    color: '#e34f8b',
+    tags: ['CSS', 'Grid', '响应式'],
+    date: '2024-09-10',
+    readTime: '13 min',
+  },
+]
+</script>
+
+# 技术博客
+
+<p style="color: var(--c-text-muted); margin-top: 0.5rem; margin-bottom: 2.5rem;">持续输出技术干货，记录成长历程 · 共 {{ posts.length }} 篇文章</p>
+
+<BlogList :posts="posts" />
