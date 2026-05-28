@@ -25,7 +25,8 @@
       <div class="hero-greeting">
         <span class="greeting-badge">
           <span class="dot" />
-          Available for opportunities
+          <!-- Available for opportunities -->
+          Demonstrating the Value of Visual Interaction
         </span>
       </div>
 
