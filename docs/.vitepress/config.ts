@@ -27,8 +27,8 @@ export default defineConfig({
           { text: '工程化', link: '/blog/engineering/' },
         ]
       },
-      { text: '基础教程', link: '/tutorials/' },
-      { text: '关于我', link: '/about' },
+      // { text: '基础教程', link: '/tutorials/' },
+      // { text: '关于我', link: '/about' },
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/findbys' },

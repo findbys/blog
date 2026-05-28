@@ -35,12 +35,12 @@
     </transition>
 
     <!-- Bottom Legend -->
-    <div class="skill-legend">
+    <!-- <div class="skill-legend">
       <span class="legend-item" v-for="l in legend" :key="l.label">
         <span class="legend-dot" :style="{ background: l.color }" />
         {{ l.label }}
       </span>
-    </div>
+    </div> -->
   </section>
 </template>
 

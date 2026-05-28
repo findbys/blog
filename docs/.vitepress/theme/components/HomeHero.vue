@@ -69,7 +69,7 @@
           </svg>
           技术博客
         </a>
-        <a href="/about" class="btn-ghost">关于我 →</a>
+        <!-- <a href="/about" class="btn-ghost">关于我 →</a> -->
       </div>
 
       <!-- Stats -->
